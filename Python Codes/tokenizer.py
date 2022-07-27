@@ -5,7 +5,7 @@ from nltk import word_tokenize
 # Declaração de constantes
 SOURCE_URL = "./stuff/c_tests/"
 
-    #Auxiliares para a classificação dos tokens
+#Auxiliares para a classificação dos tokens
 OPERADORES = ['+', '-', '*', '/', '%', '==', '+=', '-=', '--', '++', '>', '<', '>=', '<=', '&&', '||']
 SEPARADORES = [',', ';', ':', '\n', '{', '}', '[', ']', '(', ')']
 FUNCOES = ['clrscr', 'printf', 'scanf', 'getch','main']

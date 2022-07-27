@@ -1,6 +1,8 @@
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+import pandas as pd
 
 documents = [
     "Vodafone wins 20.000 Y Crore Tax Arbitration Case Against Government",
